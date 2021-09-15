@@ -51,7 +51,7 @@ echo -e " \____|__  /\___  >____/\____/ \_/  \___  >__|    "
 echo -e "         \/     \/                      \/        "  
 echo -e "\033[0m"                                           
 cd $THIS_DIR && sudo chmod +x tg
-lua Nelover.lua
+lua Nelo.lua
 }
 if [ "$1" = "install" ]; then
 install
